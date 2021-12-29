@@ -1,0 +1,197 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 39515
+
+[09:03:26] Extension host agent started.
+[09:03:26] [127.0.0.1][ed167a00][ManagementConnection] New connection established.
+[09:03:26] [127.0.0.1][84c5687c][ExtensionHostConnection] New connection established.
+[09:03:26] [127.0.0.1][84c5687c][ExtensionHostConnection] <378> Launched Extension Host Process.
+[09:03:51] [127.0.0.1][ed167a00][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:03:51] [127.0.0.1][84c5687c][ExtensionHostConnection] <378> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[09:03:51] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[09:04:16] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[09:04:16] Cancelling previous shutdown timeout
+[09:04:16] [127.0.0.1][ad06ba21][ManagementConnection] New connection established.
+[09:04:17] [127.0.0.1][857dad3d][ExtensionHostConnection] New connection established.
+[09:04:17] [127.0.0.1][857dad3d][ExtensionHostConnection] <483> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "11"
+stack trace: Error: Could not find pty with id "11",    at l._throwIfNoPty (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "11",    at l._throwIfNoPty (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+[09:04:52] Installing extension: ms-python.python
+[09:04:55] Installing extension: ms-toolsai.jupyter
+[09:04:55] Installing extension: ms-python.vscode-pylance
+[09:04:55] Extension is already requested to install ms-python.vscode-pylance
+[09:04:57] Downloaded extension: ms-toolsai.jupyter /home/student/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[09:04:58] Extracted extension to /home/student/.vscode-server/extensions/.a1cee427-9334-42e7-821d-7fe86820cfd5: ms-toolsai.jupyter
+[09:04:58] Renamed to /home/student/.vscode-server/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[09:04:58] Extracting completed. ms-toolsai.jupyter
+[09:04:58] Downloaded extension: ms-python.python /home/student/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[09:05:01] Extracted extension to /home/student/.vscode-server/extensions/.f77e6e73-b991-42cf-b2ec-6f39d84cd90a: ms-python.python
+[09:05:01] Renamed to /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655
+[09:05:01] Extracting completed. ms-python.python
+[09:05:04] Downloaded extension: ms-python.vscode-pylance /home/student/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.12.2
+[09:05:07] Extracted extension to /home/student/.vscode-server/extensions/.b358952c-3b30-4f19-ab9f-4d0fe494e6f0: ms-python.vscode-pylance
+[09:05:07] Renamed to /home/student/.vscode-server/extensions/ms-python.vscode-pylance-2021.12.2
+[09:05:07] Extracting completed. ms-python.vscode-pylance
+[09:05:07] Extension installed successfully: ms-toolsai.jupyter
+[09:05:07] Extension installed successfully: ms-python.python
+[09:05:07] Extension installed successfully: ms-python.vscode-pylance
+Got delay-shutdown request while in shutdown timeout, delaying
+[09:05:10] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[09:05:10] Cancelling previous shutdown timeout
+[09:05:10] [127.0.0.1][d883c913][ManagementConnection] New connection established.
+[09:05:10] [127.0.0.1][8d9843ff][ExtensionHostConnection] New connection established.
+[09:05:10] [127.0.0.1][8d9843ff][ExtensionHostConnection] <666> Launched Extension Host Process.
+[09:07:12] [127.0.0.1][d883c913][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:07:12] [127.0.0.1][8d9843ff][ExtensionHostConnection] <666> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[09:07:12] Cancelling previous shutdown timeout
+[09:07:22] [127.0.0.1][ddf958c8][ManagementConnection] New connection established.
+[09:07:22] [127.0.0.1][bc38507b][ExtensionHostConnection] New connection established.
+[09:07:22] [127.0.0.1][bc38507b][ExtensionHostConnection] <943> Launched Extension Host Process.
+[09:07:22] RequestStore#acceptReply was called without receiving a matching request 86
+[09:07:22] RequestStore#acceptReply was called without receiving a matching request 87
+[09:07:22] RequestStore#acceptReply was called without receiving a matching request 88
+[09:07:23] RequestStore#acceptReply was called without receiving a matching request 89
+[09:07:23] RequestStore#acceptReply was called without receiving a matching request 90
+[09:07:23] RequestStore#acceptReply was called without receiving a matching request 91
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 92
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 93
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 94
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 95
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 96
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 97
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 98
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 99
+[09:07:24] RequestStore#acceptReply was called without receiving a matching request 100
+[09:07:25] RequestStore#acceptReply was called without receiving a matching request 101
+[09:07:25] RequestStore#acceptReply was called without receiving a matching request 102
+[09:07:25] RequestStore#acceptReply was called without receiving a matching request 103
+[09:07:25] RequestStore#acceptReply was called without receiving a matching request 104
+[09:07:25] RequestStore#acceptReply was called without receiving a matching request 105
+[09:07:28] RequestStore#acceptReply was called without receiving a matching request 106
+[09:07:28] RequestStore#acceptReply was called without receiving a matching request 107
+[09:07:28] RequestStore#acceptReply was called without receiving a matching request 108
+[09:07:28] RequestStore#acceptReply was called without receiving a matching request 109
+[09:07:28] RequestStore#acceptReply was called without receiving a matching request 110
+[09:08:48] RequestStore#acceptReply was called without receiving a matching request 111
+[09:08:48] RequestStore#acceptReply was called without receiving a matching request 112
+[09:08:48] RequestStore#acceptReply was called without receiving a matching request 113
+[09:08:48] RequestStore#acceptReply was called without receiving a matching request 114
+[09:08:48] RequestStore#acceptReply was called without receiving a matching request 115
+[09:09:29] RequestStore#acceptReply was called without receiving a matching request 116
+[09:09:29] RequestStore#acceptReply was called without receiving a matching request 117
+[09:09:29] RequestStore#acceptReply was called without receiving a matching request 118
+[09:09:29] RequestStore#acceptReply was called without receiving a matching request 119
+[09:09:29] RequestStore#acceptReply was called without receiving a matching request 120
+[09:10:27] RequestStore#acceptReply was called without receiving a matching request 121
+[09:10:27] RequestStore#acceptReply was called without receiving a matching request 122
+[09:10:27] RequestStore#acceptReply was called without receiving a matching request 123
+[09:10:27] RequestStore#acceptReply was called without receiving a matching request 124
+[09:10:27] RequestStore#acceptReply was called without receiving a matching request 125
+[09:10:32] RequestStore#acceptReply was called without receiving a matching request 126
+[09:10:32] RequestStore#acceptReply was called without receiving a matching request 127
+[09:10:32] RequestStore#acceptReply was called without receiving a matching request 128
+[09:10:32] RequestStore#acceptReply was called without receiving a matching request 129
+[09:10:32] RequestStore#acceptReply was called without receiving a matching request 130
+[09:11:07] RequestStore#acceptReply was called without receiving a matching request 131
+[09:11:07] RequestStore#acceptReply was called without receiving a matching request 132
+[09:11:07] RequestStore#acceptReply was called without receiving a matching request 133
+[09:11:07] RequestStore#acceptReply was called without receiving a matching request 134
+[09:11:07] RequestStore#acceptReply was called without receiving a matching request 135
+[09:11:51] RequestStore#acceptReply was called without receiving a matching request 136
+[09:11:51] RequestStore#acceptReply was called without receiving a matching request 137
+[09:11:51] RequestStore#acceptReply was called without receiving a matching request 138
+[09:11:51] RequestStore#acceptReply was called without receiving a matching request 139
+[09:11:51] RequestStore#acceptReply was called without receiving a matching request 140
+[09:12:32] RequestStore#acceptReply was called without receiving a matching request 141
+[09:12:32] RequestStore#acceptReply was called without receiving a matching request 142
+[09:12:32] RequestStore#acceptReply was called without receiving a matching request 143
+[09:12:32] RequestStore#acceptReply was called without receiving a matching request 144
+[09:12:32] RequestStore#acceptReply was called without receiving a matching request 145
+[09:12:56] RequestStore#acceptReply was called without receiving a matching request 146
+[09:12:56] RequestStore#acceptReply was called without receiving a matching request 147
+[09:12:56] RequestStore#acceptReply was called without receiving a matching request 148
+[09:12:56] RequestStore#acceptReply was called without receiving a matching request 149
+[09:12:56] RequestStore#acceptReply was called without receiving a matching request 150
+[09:14:33] [127.0.0.1][ddf958c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:14:33] [127.0.0.1][bc38507b][ExtensionHostConnection] <943> Extension Host Process exited with code: 0, signal: null.
+[09:48:41] [127.0.0.1][3bd3ee4b][ManagementConnection] New connection established.
+[09:48:41] [127.0.0.1][92cd5ab4][ExtensionHostConnection] New connection established.
+[09:48:41] [127.0.0.1][92cd5ab4][ExtensionHostConnection] <10816> Launched Extension Host Process.
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 336
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 337
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 338
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 339
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 340
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 341
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 342
+[09:48:42] RequestStore#acceptReply was called without receiving a matching request 343
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 344
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 345
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 346
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 347
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 348
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 349
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 350
+[09:48:43] RequestStore#acceptReply was called without receiving a matching request 351
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 352
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 353
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 354
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 355
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 356
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 357
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 358
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 359
+[09:48:44] RequestStore#acceptReply was called without receiving a matching request 360
+[09:49:11] [127.0.0.1][ad06ba21][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:49:11] [127.0.0.1][857dad3d][ExtensionHostConnection] <483> Extension Host Process exited with code: 0, signal: null.
+[11:06:29] [127.0.0.1][8c7e5d29][ManagementConnection] New connection established.
+[11:06:29] [127.0.0.1][0f53e9fa][ExtensionHostConnection] New connection established.
+[11:06:29] [127.0.0.1][0f53e9fa][ExtensionHostConnection] <22434> Launched Extension Host Process.
+[11:06:32] RequestStore#acceptReply was called without receiving a matching request 676
+[11:06:32] RequestStore#acceptReply was called without receiving a matching request 677
+[11:06:32] RequestStore#acceptReply was called without receiving a matching request 678
+[11:06:32] RequestStore#acceptReply was called without receiving a matching request 679
+[11:06:34] RequestStore#acceptReply was called without receiving a matching request 680
+[11:06:34] RequestStore#acceptReply was called without receiving a matching request 681
+[11:06:34] RequestStore#acceptReply was called without receiving a matching request 682
+[11:06:34] RequestStore#acceptReply was called without receiving a matching request 683
+[11:06:37] RequestStore#acceptReply was called without receiving a matching request 684
+[11:06:37] RequestStore#acceptReply was called without receiving a matching request 685
+[11:06:37] RequestStore#acceptReply was called without receiving a matching request 686
+[11:06:37] RequestStore#acceptReply was called without receiving a matching request 687
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 688
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 689
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 690
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 691
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 692
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 693
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 694
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 695
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 696
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 697
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 698
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 699
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 700
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 701
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 702
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 703
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 704
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 705
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 706
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 707
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 708
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 709
+[11:06:38] RequestStore#acceptReply was called without receiving a matching request 710

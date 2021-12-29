@@ -1,0 +1,187 @@
+[2021-12-29 09:03:26.500] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-12-29 09:03:26.500] [remoteagent] [info] Extension host agent started.
+[2021-12-29 09:03:26.800] [remoteagent] [info] [127.0.0.1][ed167a00][ManagementConnection] New connection established.
+[2021-12-29 09:03:26.899] [remoteagent] [info] [127.0.0.1][84c5687c][ExtensionHostConnection] New connection established.
+[2021-12-29 09:03:26.908] [remoteagent] [info] [127.0.0.1][84c5687c][ExtensionHostConnection] <378> Launched Extension Host Process.
+[2021-12-29 09:03:51.924] [remoteagent] [info] [127.0.0.1][ed167a00][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-29 09:03:51.947] [remoteagent] [info] [127.0.0.1][84c5687c][ExtensionHostConnection] <378> Extension Host Process exited with code: 0, signal: null.
+[2021-12-29 09:03:51.948] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-12-29 09:04:16.319] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-12-29 09:04:16.319] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-12-29 09:04:16.802] [remoteagent] [info] [127.0.0.1][ad06ba21][ManagementConnection] New connection established.
+[2021-12-29 09:04:17.022] [remoteagent] [info] [127.0.0.1][857dad3d][ExtensionHostConnection] New connection established.
+[2021-12-29 09:04:17.029] [remoteagent] [info] [127.0.0.1][857dad3d][ExtensionHostConnection] <483> Launched Extension Host Process.
+[2021-12-29 09:04:52.533] [remoteagent] [info] Installing extension: ms-python.python
+[2021-12-29 09:04:55.053] [remoteagent] [info] Installing extension: ms-toolsai.jupyter
+[2021-12-29 09:04:55.054] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2021-12-29 09:04:55.054] [remoteagent] [info] Extension is already requested to install ms-python.vscode-pylance
+[2021-12-29 09:04:57.752] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter /home/student/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-29 09:04:58.441] [remoteagent] [info] Extracted extension to /home/student/.vscode-server/extensions/.a1cee427-9334-42e7-821d-7fe86820cfd5: ms-toolsai.jupyter
+[2021-12-29 09:04:58.496] [remoteagent] [info] Renamed to /home/student/.vscode-server/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-29 09:04:58.502] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter
+[2021-12-29 09:04:58.883] [remoteagent] [info] Downloaded extension: ms-python.python /home/student/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[2021-12-29 09:05:01.389] [remoteagent] [info] Extracted extension to /home/student/.vscode-server/extensions/.f77e6e73-b991-42cf-b2ec-6f39d84cd90a: ms-python.python
+[2021-12-29 09:05:01.464] [remoteagent] [info] Renamed to /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655
+[2021-12-29 09:05:01.467] [remoteagent] [info] Extracting completed. ms-python.python
+[2021-12-29 09:05:04.029] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/student/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.12.2
+[2021-12-29 09:05:07.009] [remoteagent] [info] Extracted extension to /home/student/.vscode-server/extensions/.b358952c-3b30-4f19-ab9f-4d0fe494e6f0: ms-python.vscode-pylance
+[2021-12-29 09:05:07.102] [remoteagent] [info] Renamed to /home/student/.vscode-server/extensions/ms-python.vscode-pylance-2021.12.2
+[2021-12-29 09:05:07.103] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2021-12-29 09:05:07.104] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-12-29 09:05:07.104] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2021-12-29 09:05:07.104] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2021-12-29 09:05:10.100] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-12-29 09:05:10.101] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-12-29 09:05:10.280] [remoteagent] [info] [127.0.0.1][d883c913][ManagementConnection] New connection established.
+[2021-12-29 09:05:10.297] [remoteagent] [info] [127.0.0.1][8d9843ff][ExtensionHostConnection] New connection established.
+[2021-12-29 09:05:10.308] [remoteagent] [info] [127.0.0.1][8d9843ff][ExtensionHostConnection] <666> Launched Extension Host Process.
+[2021-12-29 09:07:12.497] [remoteagent] [info] [127.0.0.1][d883c913][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-29 09:07:12.526] [remoteagent] [info] [127.0.0.1][8d9843ff][ExtensionHostConnection] <666> Extension Host Process exited with code: 0, signal: null.
+[2021-12-29 09:07:12.526] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-12-29 09:07:22.149] [remoteagent] [info] [127.0.0.1][ddf958c8][ManagementConnection] New connection established.
+[2021-12-29 09:07:22.150] [remoteagent] [info] [127.0.0.1][bc38507b][ExtensionHostConnection] New connection established.
+[2021-12-29 09:07:22.156] [remoteagent] [info] [127.0.0.1][bc38507b][ExtensionHostConnection] <943> Launched Extension Host Process.
+[2021-12-29 09:07:22.865] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 86
+[2021-12-29 09:07:22.865] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 87
+[2021-12-29 09:07:22.865] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 88
+[2021-12-29 09:07:23.064] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 89
+[2021-12-29 09:07:23.064] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 90
+[2021-12-29 09:07:23.064] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 91
+[2021-12-29 09:07:24.467] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 92
+[2021-12-29 09:07:24.468] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 93
+[2021-12-29 09:07:24.468] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 94
+[2021-12-29 09:07:24.592] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 95
+[2021-12-29 09:07:24.592] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 96
+[2021-12-29 09:07:24.626] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 97
+[2021-12-29 09:07:24.668] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 98
+[2021-12-29 09:07:24.668] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 99
+[2021-12-29 09:07:24.668] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 100
+[2021-12-29 09:07:25.223] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 101
+[2021-12-29 09:07:25.256] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 102
+[2021-12-29 09:07:25.256] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 103
+[2021-12-29 09:07:25.335] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 104
+[2021-12-29 09:07:25.403] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 105
+[2021-12-29 09:07:28.145] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 106
+[2021-12-29 09:07:28.145] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 107
+[2021-12-29 09:07:28.170] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 108
+[2021-12-29 09:07:28.208] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 109
+[2021-12-29 09:07:28.246] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 110
+[2021-12-29 09:08:48.049] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 111
+[2021-12-29 09:08:48.141] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 112
+[2021-12-29 09:08:48.197] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 113
+[2021-12-29 09:08:48.215] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 114
+[2021-12-29 09:08:48.242] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 115
+[2021-12-29 09:09:29.836] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 116
+[2021-12-29 09:09:29.836] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 117
+[2021-12-29 09:09:29.936] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 118
+[2021-12-29 09:09:29.936] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 119
+[2021-12-29 09:09:29.937] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 120
+[2021-12-29 09:10:27.017] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 121
+[2021-12-29 09:10:27.207] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 122
+[2021-12-29 09:10:27.231] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 123
+[2021-12-29 09:10:27.260] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 124
+[2021-12-29 09:10:27.322] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 125
+[2021-12-29 09:10:32.384] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 126
+[2021-12-29 09:10:32.386] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 127
+[2021-12-29 09:10:32.407] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 128
+[2021-12-29 09:10:32.427] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 129
+[2021-12-29 09:10:32.463] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 130
+[2021-12-29 09:11:07.793] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 131
+[2021-12-29 09:11:07.825] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 132
+[2021-12-29 09:11:07.833] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 133
+[2021-12-29 09:11:07.864] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 134
+[2021-12-29 09:11:07.879] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 135
+[2021-12-29 09:11:51.710] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 136
+[2021-12-29 09:11:51.715] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 137
+[2021-12-29 09:11:51.715] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 138
+[2021-12-29 09:11:51.793] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 139
+[2021-12-29 09:11:51.799] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 140
+[2021-12-29 09:12:32.472] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 141
+[2021-12-29 09:12:32.524] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 142
+[2021-12-29 09:12:32.540] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 143
+[2021-12-29 09:12:32.562] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 144
+[2021-12-29 09:12:32.602] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 145
+[2021-12-29 09:12:56.871] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 146
+[2021-12-29 09:12:56.878] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 147
+[2021-12-29 09:12:56.889] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 148
+[2021-12-29 09:12:56.913] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 149
+[2021-12-29 09:12:56.930] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 150
+[2021-12-29 09:14:33.287] [remoteagent] [info] [127.0.0.1][ddf958c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-29 09:14:33.332] [remoteagent] [info] [127.0.0.1][bc38507b][ExtensionHostConnection] <943> Extension Host Process exited with code: 0, signal: null.
+[2021-12-29 09:48:41.889] [remoteagent] [info] [127.0.0.1][3bd3ee4b][ManagementConnection] New connection established.
+[2021-12-29 09:48:41.917] [remoteagent] [info] [127.0.0.1][92cd5ab4][ExtensionHostConnection] New connection established.
+[2021-12-29 09:48:41.925] [remoteagent] [info] [127.0.0.1][92cd5ab4][ExtensionHostConnection] <10816> Launched Extension Host Process.
+[2021-12-29 09:48:42.267] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 336
+[2021-12-29 09:48:42.267] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 337
+[2021-12-29 09:48:42.267] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 338
+[2021-12-29 09:48:42.267] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 339
+[2021-12-29 09:48:42.909] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 340
+[2021-12-29 09:48:42.910] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 341
+[2021-12-29 09:48:42.910] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 342
+[2021-12-29 09:48:42.910] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 343
+[2021-12-29 09:48:43.869] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 344
+[2021-12-29 09:48:43.869] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 345
+[2021-12-29 09:48:43.869] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 346
+[2021-12-29 09:48:43.869] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 347
+[2021-12-29 09:48:43.990] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 348
+[2021-12-29 09:48:43.990] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 349
+[2021-12-29 09:48:43.990] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 350
+[2021-12-29 09:48:43.990] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 351
+[2021-12-29 09:48:44.220] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 352
+[2021-12-29 09:48:44.220] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 353
+[2021-12-29 09:48:44.221] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 354
+[2021-12-29 09:48:44.221] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 355
+[2021-12-29 09:48:44.437] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 356
+[2021-12-29 09:48:44.454] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 357
+[2021-12-29 09:48:44.946] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 358
+[2021-12-29 09:48:44.947] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 359
+[2021-12-29 09:48:44.950] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 360
+[2021-12-29 09:49:11.928] [remoteagent] [info] [127.0.0.1][ad06ba21][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-29 09:49:11.990] [remoteagent] [info] [127.0.0.1][857dad3d][ExtensionHostConnection] <483> Extension Host Process exited with code: 0, signal: null.
+[2021-12-29 11:06:29.743] [remoteagent] [info] [127.0.0.1][8c7e5d29][ManagementConnection] New connection established.
+[2021-12-29 11:06:29.904] [remoteagent] [info] [127.0.0.1][0f53e9fa][ExtensionHostConnection] New connection established.
+[2021-12-29 11:06:29.911] [remoteagent] [info] [127.0.0.1][0f53e9fa][ExtensionHostConnection] <22434> Launched Extension Host Process.
+[2021-12-29 11:06:32.618] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 676
+[2021-12-29 11:06:32.619] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 677
+[2021-12-29 11:06:32.619] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 678
+[2021-12-29 11:06:32.619] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 679
+[2021-12-29 11:06:34.371] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 680
+[2021-12-29 11:06:34.371] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 681
+[2021-12-29 11:06:34.371] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 682
+[2021-12-29 11:06:34.371] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 683
+[2021-12-29 11:06:37.575] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 684
+[2021-12-29 11:06:37.575] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 685
+[2021-12-29 11:06:37.575] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 686
+[2021-12-29 11:06:37.994] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 687
+[2021-12-29 11:06:38.168] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 688
+[2021-12-29 11:06:38.168] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 689
+[2021-12-29 11:06:38.168] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 690
+[2021-12-29 11:06:38.169] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 691
+[2021-12-29 11:06:38.170] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 692
+[2021-12-29 11:06:38.170] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 693
+[2021-12-29 11:06:38.170] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 694
+[2021-12-29 11:06:38.170] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 695
+[2021-12-29 11:06:38.171] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 696
+[2021-12-29 11:06:38.171] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 697
+[2021-12-29 11:06:38.172] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 698
+[2021-12-29 11:06:38.172] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 699
+[2021-12-29 11:06:38.173] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 700
+[2021-12-29 11:06:38.184] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 701
+[2021-12-29 11:06:38.185] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 702
+[2021-12-29 11:06:38.185] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 703
+[2021-12-29 11:06:38.188] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 704
+[2021-12-29 11:06:38.188] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 705
+[2021-12-29 11:06:38.478] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 706
+[2021-12-29 11:06:38.615] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 707
+[2021-12-29 11:06:38.793] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 708
+[2021-12-29 11:06:38.820] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 709
+[2021-12-29 11:06:38.821] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 710

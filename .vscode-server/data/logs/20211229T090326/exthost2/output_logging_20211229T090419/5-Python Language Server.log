@@ -1,0 +1,26 @@
+[Info  - 9:05:15 AM] Pylance language server 2021.12.2 (pyright 211ebe44) starting
+[Info  - 9:05:15 AM] Server root directory: /home/student/.vscode-server/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 9:05:15 AM] No configuration file found.
+[Info  - 9:05:15 AM] No pyproject.toml file found.
+[Info  - 9:05:15 AM] Setting pythonPath for service "student": "/bin/python3"
+[Warn  - 9:05:15 AM] stubPath /home/student/typings is not a valid directory.
+[Info  - 9:05:15 AM] Assuming Python version 3.8
+[Info  - 9:05:15 AM] Assuming Python platform Linux
+[Warn  - 9:05:16 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:05:16 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:05:16 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:05:16 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 9:05:16 AM] Searching for source files
+[Info  - 9:05:17 AM] Found 5263 source files
+[Info  - 9:05:17 AM] Background analysis(1) root directory: /home/student/.vscode-server/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 9:05:17 AM] Background analysis(1) started
+[Info  - 9:07:28 AM] Searching for source files
+[Info  - 9:07:29 AM] Found 5429 source files
+[Info  - 9:07:29 AM] Searching for source files
+[Info  - 9:07:29 AM] Found 5429 source files
+[Info  - 9:14:35 AM] Searching for source files
+[Info  - 9:14:35 AM] Found 5429 source files
+[Info  - 9:16:22 AM] Searching for source files
+[Info  - 9:16:22 AM] Found 5429 source files
+[Info  - 9:48:46 AM] Searching for source files
+[Info  - 9:48:46 AM] Found 5429 source files

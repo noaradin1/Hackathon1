@@ -1,0 +1,9 @@
+Jupyter Extension Version: 2021.11.1001550889.
+Python Extension Verison: 2021.12.1559732655.
+Info 09:48:58: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 09:48:58: ZMQ install verified.
+Info 09:48:59: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 09:49:03: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
