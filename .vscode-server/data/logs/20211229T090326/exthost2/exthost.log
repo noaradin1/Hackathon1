@@ -1,0 +1,1116 @@
+[2021-12-29 09:04:19.157] [exthost] [info] Extension host with pid 483 started
+[2021-12-29 09:04:19.220] [exthost] [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/a257a168bb2af87f59713c5062a227c9/vscode.lock': Lock acquired.
+[2021-12-29 09:04:19.346] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-29 09:04:19.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-29 09:04:19.850] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-29 09:04:19.929] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-29 09:04:20.103] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-29 09:04:20.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-29 09:04:20.125] [exthost] [info] Eager extensions activated
+[2021-12-29 09:04:20.242] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
+[2021-12-29 09:04:20.739] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
+[2021-12-29 09:04:23.655] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1243
+[2021-12-29 09:04:28.748] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1243
+[2021-12-29 09:04:33.840] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1243
+[2021-12-29 09:04:50.566] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1243
+[2021-12-29 09:04:55.650] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1243
+[2021-12-29 09:05:00.775] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3175
+[2021-12-29 09:05:05.954] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7132
+[2021-12-29 09:05:09.763] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-29 09:05:10.068] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-29 09:05:11.044] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-29 09:05:11.580] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 8840
+[2021-12-29 09:05:18.187] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:18.187] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:05:18.678] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:18.678] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:05:19.150] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:05:24.379] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:05:29.611] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:05:32.551] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:32.551] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:05:34.843] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:05:37.702] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:37.702] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:05:40.082] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:05:43.127] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:43.127] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:05:43.135] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:43.135] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:05:43.158] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:05:43.158] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:05:45.333] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:05:50.581] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:06:39.648] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:06:47.780] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:06:50.695] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:06:50.695] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:06:50.695] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:06:50.695] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:06:50.725] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:06:50.725] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:06:53.030] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:06:58.282] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:07:03.526] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:07:08.774] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:07:14.011] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:07:19.255] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:07:22.799] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7190
+[2021-12-29 09:07:25.932] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7192
+[2021-12-29 09:07:31.191] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7193
+[2021-12-29 09:07:36.425] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7193
+[2021-12-29 09:07:41.661] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7196
+[2021-12-29 09:07:46.937] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:07:55.026] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:21.794] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:27.045] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:32.280] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:37.518] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:42.768] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:48.011] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:53.260] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:08:58.499] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:03.749] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:08.998] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:14.242] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:19.493] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:24.740] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:29.994] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:38.132] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:46.330] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:51.698] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:09:56.938] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:10:02.170] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:10:07.415] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:10:12.659] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:17.908] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:20.972] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:10:20.974] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124663
+	at async s.provideDocumentSymbols (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:87704)
+[2021-12-29 09:10:20.975] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:10:20.975] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:10:21.038] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:10:21.039] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:239586
+	at async U.provideDocumentRangeSemanticTokens (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:100817)
+[2021-12-29 09:10:21.039] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:10:21.039] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:10:23.501] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:26.610] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:34.764] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:40.008] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:45.243] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:50.475] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:10:55.701] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:00.920] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:06.154] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:11.382] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:16.613] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:21.835] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:27.074] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:30.149] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:11:30.149] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:11:32.315] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:37.544] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:42.771] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:47.999] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:53.219] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:11:58.452] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:01.380] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:01.381] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:12:03.694] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:08.940] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:13.090] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:13.090] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:14.057] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:14.061] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:12:14.197] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:17.212] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:17.212] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:17.215] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:17.215] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:17.249] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:17.249] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:12:17.250] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:17.250] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:17.755] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:17.755] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:19.427] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:22.364] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:22.364] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:28.755] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:28.756] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:31.732] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:39.877] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:45.115] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:48.050] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:48.051] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:48.056] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:12:48.056] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:12:50.349] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:12:55.591] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:00.842] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:06.076] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:09.061] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:13:09.062] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+	at async h.provideDocumentHighlights (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:91846)
+[2021-12-29 09:13:09.062] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:13:09.063] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:13:11.318] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:16.552] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:19.572] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:13:19.572] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:13:21.799] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:25.433] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:28.438] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:13:28.438] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:13:28.453] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:13:28.453] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:13:28.492] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:13:28.492] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:13:29.826] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:13:35.042] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:13:40.272] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:13:45.502] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:13:50.733] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:13:55.961] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:01.195] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:16.262] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:21.507] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:26.748] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:32.000] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:37.242] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7200
+[2021-12-29 09:14:42.519] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:14:47.757] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:14:53.007] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:14:58.236] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:03.490] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:08.733] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:13.982] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:19.220] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:24.464] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:30.350] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:35.604] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:40.849] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:46.100] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:51.328] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:15:56.584] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:16:01.835] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:16:07.087] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:16:12.327] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:16:17.581] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:16:22.822] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:16:26.443] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:16:29.612] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:16:34.861] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:16:40.139] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:16:45.384] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:16:50.642] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:16:55.887] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:01.132] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:06.376] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:09.332] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:17:09.332] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:17:09.337] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:17:09.337] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:17:11.610] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:16.853] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:19.889] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:17:19.889] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:17:22.100] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:25.204] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:17:25.204] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:17:27.346] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:32.590] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:35.576] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:17:35.576] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:17:35.579] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:17:35.579] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:17:37.835] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:43.078] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:48.332] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:53.564] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:17:58.816] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:04.077] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:06.980] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:18:06.980] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:18:06.985] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:18:06.985] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+	at async h.provideDocumentHighlights (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:91846)
+[2021-12-29 09:18:09.320] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:14.564] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:19.803] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:22.763] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:18:22.763] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:18:25.062] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:30.300] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:35.539] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:40.787] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:45.242] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:18:45.243] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:18:46.037] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:51.277] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:18:56.522] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:01.767] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:08.014] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:13.240] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:17.337] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:19:17.337] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:19:18.474] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:21.465] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:19:21.466] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:122059
+	at async a.provideDefinition (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90015)
+[2021-12-29 09:19:21.493] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:19:21.494] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:19:23.731] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:27.255] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:30.402] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:35.646] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:40.893] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:46.140] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:51.389] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:19:56.674] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:01.909] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:04.832] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:04.832] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:20:07.154] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:12.399] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:17.648] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:20.599] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:20.599] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:20:22.242] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:22.242] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:20:22.890] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:25.901] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.902] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:20:25.906] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.906] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:20:25.911] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.911] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:20:25.913] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.913] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:20:25.917] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.917] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:20:25.921] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.921] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:20:25.922] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:20:25.922] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:20:28.135] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:33.376] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:38.623] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:43.860] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:49.099] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:54.348] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:20:59.626] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:21:04.868] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:21:10.129] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:21:15.379] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:21:20.627] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:21:25.874] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:21:31.124] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:22:40.734] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:22:43.987] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:22:47.109] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:22:52.385] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:00.519] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:05.772] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:11.014] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:13.940] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:23:13.941] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:23:16.252] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:21.502] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:24.443] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:23:24.447] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:23:24.479] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:23:24.480] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:23:26.752] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:31.991] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:37.234] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:42.461] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:47.696] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:52.944] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:23:56.532] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:23:56.533] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:23:58.190] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:03.430] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:08.680] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:13.933] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:19.176] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:24.433] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:29.676] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:34.937] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:40.181] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:45.430] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:50.672] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:24:55.953] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:01.187] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:06.421] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:11.673] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:16.928] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:22.174] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:27.420] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:32.678] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:37.958] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:43.206] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:46.731] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:49.836] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:25:55.074] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:00.323] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:05.569] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:10.826] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:16.073] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:21.324] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:26.571] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:31.817] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:37.071] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:42.349] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:47.591] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:52.840] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:26:58.091] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:03.333] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:08.582] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:13.831] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:19.086] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:24.323] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:29.577] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:34.830] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:40.091] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:45.326] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:50.582] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:27:55.830] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:28:01.089] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:28:06.333] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:28:11.590] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:28:16.840] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:28:23.765] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:30:43.014] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:30:46.166] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:30:49.265] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:31:38.612] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:31:41.577] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:31:41.577] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:32:16.339] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:21.572] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:24.501] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:32:24.502] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:32:26.820] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:32.061] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:37.315] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:42.570] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:47.818] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:50.766] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:32:50.766] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:32:53.054] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:32:56.787] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:32:56.787] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:32:58.283] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:01.267] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.267] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:33:01.273] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.273] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:33:01.278] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.278] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.283] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.283] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:33:01.287] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.287] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.303] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.303] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:33:01.308] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.308] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.313] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.314] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:33:01.318] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.318] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.325] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.325] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.376] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.376] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.376] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.376] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.380] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.380] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.391] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.392] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:01.392] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:01.392] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:33:03.531] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:06.496] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:06.496] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:06.549] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:06.551] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:06.552] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:06.555] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:33:06.580] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:06.580] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:33:06.580] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:06.580] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:121005
+	at async j.provideSignatureHelp (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:105464)
+[2021-12-29 09:33:06.580] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:33:06.580] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:33:08.788] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:14.075] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:19.312] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:24.551] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:29.788] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:35.047] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:40.313] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:45.559] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:49.105] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:53.364] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:33:58.601] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:03.844] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:09.090] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:14.367] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:19.606] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:24.852] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:30.085] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:35.335] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:40.580] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:45.836] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:51.078] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:34:56.325] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:35:01.561] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:35:06.812] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:35:12.064] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:36:38.152] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:36:38.152] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:38:09.699] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:12.850] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:15.975] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:24.230] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:29.475] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:34.717] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:37.637] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:38:37.638] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:38:37.642] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:38:37.642] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:38:39.965] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:42.924] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:38:42.924] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:38:42.928] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:38:42.928] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:38:43.083] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:38:43.084] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:38:45.218] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:38:50.464] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:16.566] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:32.402] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:37.630] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:40.608] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:40.608] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:101516)
+[2021-12-29 09:39:40.609] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:40.609] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:39:40.624] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:40.624] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:39:40.645] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:40.645] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:39:40.645] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:40.645] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:39:42.877] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:48.118] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:51.083] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:51.084] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:39:51.092] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:39:51.092] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:39:53.366] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:39:58.605] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:03.864] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:06.774] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:40:06.774] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:40:09.110] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:14.366] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:19.593] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:24.840] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:35.197] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:40.450] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:50.502] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:53.468] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:40:53.468] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:40:53.517] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:40:53.517] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:40:55.738] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:40:58.663] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:40:58.663] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:40:58.667] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:40:58.667] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:40:59.523] [exthost] [warning] ms-python.python - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-12-29 09:40:59.523] [exthost] [warning] ms-python.python - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-12-29 09:40:59.701] [exthost] [warning] ms-python.python - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-12-29 09:40:59.701] [exthost] [warning] ms-python.python - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-12-29 09:41:00.982] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:01.024] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:41:01.024] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:41:06.224] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:09.132] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:41:09.132] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:41:09.136] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:41:09.136] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+	at async h.provideDocumentHighlights (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:91846)
+[2021-12-29 09:41:09.143] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:41:09.143] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:41:11.451] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:14.986] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:18.081] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:23.317] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:28.575] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:33.831] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:39.066] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:44.314] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:41:47.225] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:41:47.225] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:41:49.560] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:23.210] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:28.445] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:31.362] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:31.362] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:31.366] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:31.366] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:31.428] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:31.428] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:31.442] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:31.442] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:33.691] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:36.631] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:36.631] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:36.996] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:36.996] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:38.937] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:41.924] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:41.924] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:42:44.196] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:47.112] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:42:47.112] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:42:49.452] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:54.686] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:42:59.939] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:05.181] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:10.426] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:15.672] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:20.918] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:26.168] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:31.420] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:36.658] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:41.910] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:47.160] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:52.404] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:43:57.646] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:02.885] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:08.134] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:13.376] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:16.911] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:20.045] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:25.284] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:30.534] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:35.786] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:38.764] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:44:38.764] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async A.provideCodeActions (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:93216)
+[2021-12-29 09:44:41.025] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:46.284] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:51.520] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:44:56.767] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:02.008] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:19.483] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:24.751] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:30.003] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:35.256] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:40.502] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:45.741] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:50.995] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:45:56.251] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:01.497] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:04.418] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:46:04.418] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:46:06.743] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:11.991] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:14.897] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-29 09:46:14.897] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/student/.vscode-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/home/student/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/server/remoteExtensionHostProcess.js:95:90908)
+[2021-12-29 09:46:17.258] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:22.494] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:27.732] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:32.982] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:38.219] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:43.462] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:48.699] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:53.950] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:46:59.197] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:47:04.445] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:47:09.749] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:47:15.000] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:47:18.564] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:47:21.690] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:47:26.994] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:48:12.510] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:48:17.755] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:48:23.000] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7198
+[2021-12-29 09:48:43.010] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7199
+[2021-12-29 09:48:48.260] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7202
+[2021-12-29 09:48:53.519] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7202
+[2021-12-29 09:48:58.768] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7205
+[2021-12-29 09:49:04.103] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7206
+[2021-12-29 09:49:11.926] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-12-29 09:49:11.927] [exthost] [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/a257a168bb2af87f59713c5062a227c9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-12-29 09:49:11.961] [exthost] [info] Extension host with pid 483 exiting with code 0

@@ -18,32 +18,35 @@ addresses = []
 num1 = random.randrange(1,4)
 num2 = random.randrange(1,5)
 answer = num1 + num2
+BROADCAST = '<172.1.255.255>'
 
 def search_clients():
     global count
     locking_count = threading.RLock()
 
-    try:
-        # Create TCP socket, listening in port 2054
-        TCP_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
-        TCP_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        TCP_socket.bind(("", 2054))
-        TCP_socket.listen(1)
-        # While the number of clients is less than 2, wait for more clients
-        while  count < 2:
-            print("hey")
-            # Accept the next client
-            client_socket, addr = TCP_socket.accept()
-            print("im here")
-            # Send the client to "add_new_client" function
-            new_client = threading.Thread(target=add_new_client, args=(client_socket, addr))
-            new_client.start()
-            #with locking_count:
-            #    count += 1  # count the clients
-        return
+    # try:
+    # Create TCP socket, listening in port 2054
+    TCP_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
+    print("h")
+    TCP_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    print("h12")
+    TCP_socket.bind(("", 2054))
+    TCP_socket.listen(1)
+    # While the number of clients is less than 2, wait for more clients
+    while  count < 2:
+        print("hey")
+        # Accept the next client
+        client_socket, addr = TCP_socket.accept()
+        print("im here")
+        # Send the client to "add_new_client" function
+        new_client = threading.Thread(target=add_new_client, args=(client_socket, addr))
+        new_client.start()
+        #with locking_count:
+        #    count += 1  # count the clients
+    return
 
-    except:
-        print("Wrong type of message received")
+    # except:
+    #     print("Wrong type of message received")
 
 
 # The server adds the new client details to it's data structures
@@ -188,7 +191,7 @@ def main():
     UDP_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     UDP_socket.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
     UDP_socket.bind(('', 2054))
-    print(u"\u001B[32mServer started' listening on IP address 172.1.0.22\u001B[32m")
+    print(u"\u001B[32mServer started' listening on IP address 172.18.0.120\u001B[32m")
     # Search for new clients
     thread = threading.Thread(target=search_clients, args=())
     thread.start()
@@ -197,9 +200,9 @@ def main():
 
         try:
             # Send broadcast message to all clients
-            MSG = struct.pack('<3Q', 0xabcddcba, 0x2, 0xA)
+            MSG = struct.pack('Ibh', 0xabcddcba, 0x2, 2054)
             print("sending")
-            UDP_socket.sendto(MSG, ('<broadcast>', 13117))
+            UDP_socket.sendto(MSG, ("<broadcast>", 13117))
             time.sleep(1)
 
         except:
@@ -220,7 +223,7 @@ def main():
     print("Game over, sending out offer requests...")
     while True:
         # send
-        MSG = struct.pack('<3Q', 0xabcddcba, 0x2, 0xA)
+        MSG = struct.pack('Ibh', 0xabcddcba, 0x2, 0xA)
         UDP_socket.sendto(MSG, ('<broadcast>', 13117))
         time.sleep(1)
 

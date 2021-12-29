@@ -1,7 +1,7 @@
 import socket
 import time
 import struct
-import msvcrt
+import getch
 import string
 import random
 import _thread as thread
@@ -22,32 +22,35 @@ def main():
     print(u"\u001B[33mClient started, listening for offer requests...\u001B[35m")
     t_end = time.time() + 10  
     while t_end > time.time(): # run for 10 second
+        print("waiting for first mesg")
+        # Waiting for the first message
+        first_massage, addr  = client.recvfrom(bufferSize)
+        print("received first mesg")
+        print(first_massage)
+        # Unpacked the received message
         try:
-            print("waiting for first mesg")
-            # Waiting for the first message
-            first_massage = client.recvfrom(bufferSize)
-            print("received first mesg")
-            # Unpacked the received message
-            unpacked_message = struct.unpack('<3Q', first_massage[0])
-            unpacked_message += first_massage[1]
+            unpacked_message = struct.unpack('Ibh', first_massage)
+            print(unpacked_message)
+      
             # If the message type is 2, and the cookie is correct (the decimal value of 0xabcddcba)
             if unpacked_message[1] == 2 and unpacked_message[0] == 2882395322:  
                 # The port the clients will connect to in TCP connection
-                tcp_port = unpacked_message[4]  
+                tcp_port = unpacked_message[2]  
                 print(unpacked_message)
-                print("“Received offer from " + unpacked_message[3] + ", attempting to connect...")
-                try:
-                    #group_name = random.choice(group_names) # find random group name
-                    # Create the socket and connect to the TCP port received from the broadcast
-                    ClientSock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-                    ClientSock.connect(('localhost', tcp_port))
-                    # Create the client's name
-                    client_name = 'Bellman' +"\n" 
-                    print(client_name)
-                    # Send the name
-                    ClientSock.send(client_name.encode())
-                except:
-                    break
+                print("“Received offer from " + addr[0] + ", attempting to connect...")
+                # try:
+                #group_name = random.choice(group_names) # find random group name
+                # Create the socket and connect to the TCP port received from the broadcast
+                ClientSock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+                print("why like this")
+                ClientSock.connect((addr[0], tcp_port))
+                # Create the client's name
+                client_name = 'Vint Cerf' +"\n" 
+                print(client_name)
+                # Send the name
+                ClientSock.send(client_name.encode())
+                # except:
+                #     break
                 try:
                     print("waiting for start message")
                     # Waiting for the start message
@@ -55,7 +58,7 @@ def main():
                     if start_message != "":
                         print(start_message)
                         # Catch the client's input
-                        answer = msvcrt.getch()
+                        answer = getch.getch()
                         coded_answer = answer.decode('ASCII')
                         # Send the answer to the server
                         ClientSock.send(coded_answer.encode()) 
@@ -66,7 +69,9 @@ def main():
                 except:
                     break
         except:
-            break
+            print("Unpack Failed")
+            continue
+        
 
     print("Server disconnected, listening for offer requests...")
     while True:
